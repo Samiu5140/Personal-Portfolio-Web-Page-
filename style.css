@@ -1,0 +1,100 @@
+
+/* External CSS */
+
+
+h1, h2 {
+    text-align: center;
+}
+  
+  section {
+    padding: 20px;
+  }
+  
+  .navbar {
+    background: rgb(128, 128, 128);
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    height: 20px;
+  }
+  .navbar a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover{
+ color: rgb(0, 255, 225);
+ 
+
+  }
+  
+  #profile-img {
+    
+    height: 280px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px ;
+    transition: transform 1s;
+    position: absolute;
+  }
+  #profile-img:hover {
+    transform: scale(1.2);
+
+  }
+
+
+  .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none; 
+    gap: 30px;  
+                 
+  }
+  
+  .skill {
+    flex: 1 1 40%;
+    background-color: #c4b7b7;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+    
+  }
+  
+  
+  table {
+    width: 85%;
+    margin: auto;
+    background-color: rgb(240, 255, 245);
+    text-align: center;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  form {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  input, textarea {
+    margin: 5px ;
+    padding: 10px;
+  }
+  button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    transform: translate(5px) rotate(3deg);
+  }

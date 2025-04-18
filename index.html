@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+
+  <title>Simple Profile Page</title>
+  
+  <link rel="stylesheet" href="style.css"/>
+
+ <!-- internal CSS -->
+ <style>
+
+body {
+
+    background-color: lightyellow;
+    border: 5px solid;
+ 
+  }
+
+
+ </style>
+
+</head>
+<body>
+
+   <!-- nevigation bar  -->
+
+<section id="profile"> </section>
+  <nav class="navbar">
+    <a href="#profile">Profile</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+<br><br><br>
+
+    <!-- Profile Section -->
+  
+    <img src="profile.png" id="profile-img" />
+    
+    
+    <h1>Sami Ullah</h1>
+
+  <section id="about">
+
+    <h1>About Me</h1> 
+    
+   <!-- inline CSS -->
+
+ <p style="font-size: larger; text-align: center;"> Hello! My name is Sami Ullah. I build web interfaces with HTML, CSS, and JS.</p>
+  </section>
+
+
+  <h1> Skills </h1> 
+
+    <ul class="skills-section">
+        <li class="skill">HTML</li>
+        <li class="skill">CSS</li>
+        <li class="skill">JavaScript</li>
+        <li class="skill">React</li>
+        <li class="skill">Node.js</li>
+        <li class="skill">Python</li>
+      </ul>
+  </section>
+
+
+ <!-- tables -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <table>
+      <tr>
+        <th>Year</th>
+        <th>Role</th>
+        <th>Company</th>
+    </tr>
+      <tr>
+        <td>2025</td>
+        <td>Developer</td>
+        <td>ABC Technologies</td>
+    </tr>
+      <tr><td>2023</td>
+        <td>Designer</td>
+        <td> XYZ digital </td>
+    </tr>
+    </table>
+  </section>
+<br><br>
+  <section>                                                 <!-- inline CSS -->
+    <h2>Demo Video</h2>  <br><br>
+    <video  width="600" controls muted style="display: block; margin: auto;">
+      <source src="demo.mp4"  type="video/mp4" />
+    </video>
+
+    <br>
+  </section>
+
+                                   <!-- Form -->
+
+   <section id="contact"> 
+    <h2> Contact Form</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
