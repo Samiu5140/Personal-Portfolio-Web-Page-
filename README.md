@@ -1,6 +1,4 @@
-Project Summary
-T
-his project is a Simple Profile Page built using HTML and CSS. It showcases a developer's personal profile, skills, experience, and a demo video. The webpage is divided into multiple sections including a navigation bar, profile display, about section, skills list, experience table, video demonstration, and a contact form. It is styled with internal, external, and inline CSS to demonstrate different ways of styling web content.
+This project is a Simple Profile Page built using HTML and CSS. It showcases a developer's personal profile, skills, experience, and a demo video. The webpage is divided into multiple sections including a navigation bar, profile display, about section, skills list, experience table, video demonstration, and a contact form. It is styled with internal, external, and inline CSS to demonstrate different ways of styling web content.
 
 CSS function includes
 
